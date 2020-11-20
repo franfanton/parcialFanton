@@ -4,19 +4,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import androidx.appcompat.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
-
-
-public class MainActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.vistaprincipal);
+        setContentView(R.layout.homeactivity);
         Toolbar toolbar = findViewById(R.id.toolbarHome);
         setSupportActionBar(toolbar);
     }
@@ -33,10 +32,12 @@ public class MainActivity extends AppCompatActivity {
         switch(item.getItemId()){
             case R.id.itemRegistrar:
                 Toast.makeText(this, "Selecciono Registrarse", Toast.LENGTH_SHORT).show();
-                i = new Intent(MainActivity.this, com.example.parcial_fanton.AltaUsuarioActivity.class);
+                i = new Intent(HomeActivity.this, com.example.parcial_fanton.AltaUsuarioActivity.class);
                 startActivity(i);
                 break;
         }
         return true;
     }
+
+
 }

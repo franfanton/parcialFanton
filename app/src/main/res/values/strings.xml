@@ -1,3 +1,44 @@
 <resources>
-    <string name="app_name">parcial_Fanton</string>
+<string name="app_name">parcial_Fanton</string>
+
+<string name="titulo_form">Complete los campos solicitados:</string>
+<string name="nombre">Ingrese su Nombre</string>
+<string name="mail">Ingrese un Correo Electrónico</string>
+<string name="passwd">Ingrese una Contraseña</string>
+<string name="rep_passwd">Ingrese Nuevamente su Contraseña</string>
+<string name="mes">Mes</string>
+<string name="anio">Año</string>
+<string name="term_cond">Acepto los términos y condiciones</string>
+<string name="registrar">Registrar</string>
+<string name="mailCorrecto">[a-zA-Z0-9._-]+@[a-z]+\\.[a-z]+</string>
+<string-array name="mesVencimiento">
+    <item>:: Seleccione ::</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+</string-array>
+<string-array name="aniosVencimiento">
+    <item>:: Seleccione ::</item>
+    <item>1990</item>
+    <item>1991</item>
+    <item>1992</item>
+    <item>1993</item>
+    <item>1994</item>
+    <item>1995</item>
+    <item>1996</item>
+    <item>1997</item>
+    <item>1998</item>
+    <item>1999</item>
+    <item>2000</item>
+</string-array>
+
 </resources>
